@@ -12,8 +12,19 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		44C9FD6FE8C44860BC3F57C6 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7385BBF56BF34D948B082071 /* Inter-ExtraBold.ttf */; };
+		626CD1954B5E4A9FB693848A /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59F7AA8E5F954F10AF4DEFBA /* Inter-Light.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-ReactTaskApp-ReactTaskAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ReactTaskApp-ReactTaskAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8469AA355EF54DDFB778E085 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 664ACE42570B4A1FA1335012 /* Inter-Medium.ttf */; };
+		910193E99C2B4B588C758AF5 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA1F35AC0CAE42FB9EE0E83F /* Inter-Bold.ttf */; };
+		A903126C529D46988891FF56 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9AC4DC8ADCF7478593F9FCC9 /* Inter-ExtraLight.ttf */; };
+		AEBF961507644D70BB4EC860 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06C57664CB464459BFF7976E /* Inter-Regular.ttf */; };
+		B20B4F823D0842D9A86BE874 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FCA809E63DE49E79D6710EE /* Inter-Black.ttf */; };
+		D0C5663A2AD1BDA70022EAEC /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C566392AD1BDA60022EAEC /* BootSplash.storyboard */; };
+		D0C566402AD1CFDC0022EAEC /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0C5663F2AD1CFDC0022EAEC /* AntDesign.ttf */; };
+		F476FBE334B74D349E111793 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6437C4201ED748E2B5F4645E /* Inter-Thin.ttf */; };
+		F938D12AFB3740478E74789B /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF50B72F10204FCBA3B98054 /* Inter-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +41,8 @@
 		00E356EE1AD99517003FC87E /* ReactTaskAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactTaskAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ReactTaskAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactTaskAppTests.m; sourceTree = "<group>"; };
+		06C57664CB464459BFF7976E /* Inter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.ttf"; path = "../src/assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
+		0FCA809E63DE49E79D6710EE /* Inter-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Black.ttf"; path = "../src/assets/fonts/Inter-Black.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* ReactTaskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactTaskApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ReactTaskApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ReactTaskApp/AppDelegate.mm; sourceTree = "<group>"; };
@@ -39,10 +52,19 @@
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-ReactTaskApp-ReactTaskAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactTaskApp-ReactTaskAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-ReactTaskApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactTaskApp.debug.xcconfig"; path = "Target Support Files/Pods-ReactTaskApp/Pods-ReactTaskApp.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-ReactTaskApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactTaskApp.release.xcconfig"; path = "Target Support Files/Pods-ReactTaskApp/Pods-ReactTaskApp.release.xcconfig"; sourceTree = "<group>"; };
+		59F7AA8E5F954F10AF4DEFBA /* Inter-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Light.ttf"; path = "../src/assets/fonts/Inter-Light.ttf"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-ReactTaskApp-ReactTaskAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactTaskApp-ReactTaskAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactTaskApp-ReactTaskAppTests/Pods-ReactTaskApp-ReactTaskAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-ReactTaskApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactTaskApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6437C4201ED748E2B5F4645E /* Inter-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Thin.ttf"; path = "../src/assets/fonts/Inter-Thin.ttf"; sourceTree = "<group>"; };
+		664ACE42570B4A1FA1335012 /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../src/assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
+		7385BBF56BF34D948B082071 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraBold.ttf"; path = "../src/assets/fonts/Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactTaskApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-ReactTaskApp-ReactTaskAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactTaskApp-ReactTaskAppTests.release.xcconfig"; path = "Target Support Files/Pods-ReactTaskApp-ReactTaskAppTests/Pods-ReactTaskApp-ReactTaskAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		9AC4DC8ADCF7478593F9FCC9 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraLight.ttf"; path = "../src/assets/fonts/Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		AA1F35AC0CAE42FB9EE0E83F /* Inter-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Bold.ttf"; path = "../src/assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
+		BF50B72F10204FCBA3B98054 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.ttf"; path = "../src/assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		D0C566392AD1BDA60022EAEC /* BootSplash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BootSplash.storyboard; path = ReactTaskApp/BootSplash.storyboard; sourceTree = "<group>"; };
+		D0C5663F2AD1CFDC0022EAEC /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AntDesign.ttf; path = ReactTaskApp/Fonts/AntDesign.ttf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -86,6 +108,8 @@
 		13B07FAE1A68108700A75B9A /* ReactTaskApp */ = {
 			isa = PBXGroup;
 			children = (
+				D0C5663E2AD1CFA80022EAEC /* Fonts */,
+				D0C566392AD1BDA60022EAEC /* BootSplash.storyboard */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -94,6 +118,22 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = ReactTaskApp;
+			sourceTree = "<group>";
+		};
+		24D5DC2FF6734993BD6729C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0FCA809E63DE49E79D6710EE /* Inter-Black.ttf */,
+				AA1F35AC0CAE42FB9EE0E83F /* Inter-Bold.ttf */,
+				7385BBF56BF34D948B082071 /* Inter-ExtraBold.ttf */,
+				9AC4DC8ADCF7478593F9FCC9 /* Inter-ExtraLight.ttf */,
+				59F7AA8E5F954F10AF4DEFBA /* Inter-Light.ttf */,
+				664ACE42570B4A1FA1335012 /* Inter-Medium.ttf */,
+				06C57664CB464459BFF7976E /* Inter-Regular.ttf */,
+				BF50B72F10204FCBA3B98054 /* Inter-SemiBold.ttf */,
+				6437C4201ED748E2B5F4645E /* Inter-Thin.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -122,6 +162,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				24D5DC2FF6734993BD6729C6 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -146,6 +187,14 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-ReactTaskApp-ReactTaskAppTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D0C5663E2AD1CFA80022EAEC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D0C5663F2AD1CFDC0022EAEC /* AntDesign.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +293,17 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				D0C566402AD1CFDC0022EAEC /* AntDesign.ttf in Resources */,
+				B20B4F823D0842D9A86BE874 /* Inter-Black.ttf in Resources */,
+				D0C5663A2AD1BDA70022EAEC /* BootSplash.storyboard in Resources */,
+				910193E99C2B4B588C758AF5 /* Inter-Bold.ttf in Resources */,
+				44C9FD6FE8C44860BC3F57C6 /* Inter-ExtraBold.ttf in Resources */,
+				A903126C529D46988891FF56 /* Inter-ExtraLight.ttf in Resources */,
+				626CD1954B5E4A9FB693848A /* Inter-Light.ttf in Resources */,
+				8469AA355EF54DDFB778E085 /* Inter-Medium.ttf in Resources */,
+				AEBF961507644D70BB4EC860 /* Inter-Regular.ttf in Resources */,
+				F938D12AFB3740478E74789B /* Inter-SemiBold.ttf in Resources */,
+				F476FBE334B74D349E111793 /* Inter-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,10 +660,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
@@ -673,10 +730,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
